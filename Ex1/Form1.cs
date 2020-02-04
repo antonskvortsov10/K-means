@@ -18,9 +18,7 @@ namespace Ex1
         }
 
         Bitmap bmp = new Bitmap("C:\\Users\\Anton\\Downloads\\Ex2\\Ex2\\Izmaylovo_2014.bmp");
-
         byte i1, i2, i3;
-
         Image MemForImage;
 
         
@@ -30,7 +28,7 @@ namespace Ex1
             openFileDialog1.InitialDirectory = "C:\\Users\\Anton\\Downloads\\Ex2\\Ex2";
             if (Bmp)
                 openFileDialog1.Filter = "image (BMP) files (*.bmp)|*.bmp|All files (*.*)|*.*";
-            if(openFileDialog1.ShowDialog() == DialogResult.OK)
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
@@ -55,9 +53,9 @@ namespace Ex1
             bool ok = true;
             if (N1 == 0 && N2 == 0 && N3 == 0)
                 ok = false;
-            for (int x=0; x<bmp.Width; x++)
+            for (int x = 0; x < bmp.Width; x++)
             {
-                for (int y=0; y<bmp.Height; y++)
+                for (int y = 0; y < bmp.Height; y++)
                 {
                     Color col = bmp.GetPixel(x, y);
                     byte r, g, b;
@@ -103,7 +101,7 @@ namespace Ex1
             LoadImage(true);
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void buttonKMeans_Click(object sender, EventArgs e)
         {
             Bitmap I = (Bitmap)pictureBox2.Image;
             Bitmap newI = new Bitmap(bmp);
@@ -129,7 +127,7 @@ namespace Ex1
                     for (int y = 0; y < I.Height; y++)
                     {
                         int[] distk=new int[k];
-                        for (int j=0; j<k; j++)
+                        for (int j = 0; j < k; j++)
                             distk[j] = Math.Abs(newI.GetPixel(x, y).R - Ck[j]);
                         int numC = 0;
                         for (int j = 1; j < k; j++)

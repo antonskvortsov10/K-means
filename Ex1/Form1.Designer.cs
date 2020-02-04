@@ -44,7 +44,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button7 = new System.Windows.Forms.Button();
+            this.buttonKMeans = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -187,15 +187,15 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // button7
+            // buttonKMeans
             // 
-            this.button7.Location = new System.Drawing.Point(79, 568);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(220, 28);
-            this.button7.TabIndex = 14;
-            this.button7.Text = "K-means";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.buttonKMeans.Location = new System.Drawing.Point(79, 568);
+            this.buttonKMeans.Name = "buttonKMeans";
+            this.buttonKMeans.Size = new System.Drawing.Size(220, 28);
+            this.buttonKMeans.TabIndex = 14;
+            this.buttonKMeans.Text = "K-means";
+            this.buttonKMeans.UseVisualStyleBackColor = true;
+            this.buttonKMeans.Click += new System.EventHandler(this.buttonKMeans_Click);
             // 
             // pictureBox3
             // 
@@ -230,7 +230,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.buttonKMeans);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox3);
@@ -275,7 +275,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button buttonKMeans;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label1;
