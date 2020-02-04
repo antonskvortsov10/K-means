@@ -43,7 +43,7 @@ namespace Ex1
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void GrayScaleProcessButton_Click(object sender, EventArgs e)
         {
             Bitmap bmp = (Bitmap)pictureBox1.Image;
             double N1, N2, N3;
@@ -73,35 +73,35 @@ namespace Ex1
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ShowResultImageButton_Click(object sender, EventArgs e)
         {
             pictureBox2.Image = bmp;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Weight1Button_Click(object sender, EventArgs e)
         {
             i1 = (byte)trackBar1.Value;
             textBox1.Text = Convert.ToString(i1);
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Weight2Button_Click(object sender, EventArgs e)
         {
             i2 = (byte)trackBar2.Value;
             textBox2.Text = Convert.ToString(i2);
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void Weight3Button_Click(object sender, EventArgs e)
         {
             i3 = (byte)trackBar3.Value;
             textBox3.Text = Convert.ToString(i3);
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void LoadImageButton_Click(object sender, EventArgs e)
         {
             LoadImage(true);
         }
 
-        private void buttonKMeans_Click(object sender, EventArgs e)
+        private void KMeansButton_Click(object sender, EventArgs e)
         {
             Bitmap I = (Bitmap)pictureBox2.Image;
             Bitmap newI = new Bitmap(bmp);
