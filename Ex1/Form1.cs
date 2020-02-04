@@ -105,11 +105,10 @@ namespace Ex1
         {
             Bitmap I = (Bitmap)pictureBox2.Image;
             Bitmap newI = new Bitmap(bmp);
-            int k = Convert.ToInt32(textBox4.Text), n = 20;
-            // int k = 2, n = 20;
+            int k = Convert.ToInt32(textBox4.Text), n = 20; // int k = 2, n = 20;
             List<List<int>> dist = new List<List<int>>();
             Random rnd = new Random();
-            int[] Ck=new int[k];
+            int[] Ck = new int[k];
             for (int i = 0; i < k; i++)
                 Ck[i] = rnd.Next(0, 255);
             for (int x = 0; x < I.Width; x++)
@@ -126,7 +125,7 @@ namespace Ex1
                 {
                     for (int y = 0; y < I.Height; y++)
                     {
-                        int[] distk=new int[k];
+                        int[] distk = new int[k];
                         for (int j = 0; j < k; j++)
                             distk[j] = Math.Abs(newI.GetPixel(x, y).R - Ck[j]);
                         int numC = 0;
@@ -161,7 +160,7 @@ namespace Ex1
                     newI.SetPixel(x, y, Color.FromArgb(Ck[dist[x][y]], Ck[dist[x][y]], Ck[dist[x][y]]));
                 }
             }
-            pictureBox3.Image=newI;
+            pictureBox3.Image = newI;
         }
     }
 }
