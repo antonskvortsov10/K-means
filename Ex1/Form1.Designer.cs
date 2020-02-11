@@ -68,6 +68,7 @@
             // 
             // GrayScaleProcessButton
             // 
+            this.GrayScaleProcessButton.Enabled = false;
             this.GrayScaleProcessButton.Location = new System.Drawing.Point(771, 35);
             this.GrayScaleProcessButton.Name = "GrayScaleProcessButton";
             this.GrayScaleProcessButton.Size = new System.Drawing.Size(75, 23);
@@ -78,6 +79,7 @@
             // 
             // ShowResultImageButton
             // 
+            this.ShowResultImageButton.Enabled = false;
             this.ShowResultImageButton.Location = new System.Drawing.Point(771, 81);
             this.ShowResultImageButton.Name = "ShowResultImageButton";
             this.ShowResultImageButton.Size = new System.Drawing.Size(75, 23);
@@ -189,6 +191,7 @@
             // 
             // KMeansButton
             // 
+            this.KMeansButton.Enabled = false;
             this.KMeansButton.Location = new System.Drawing.Point(79, 568);
             this.KMeansButton.Name = "KMeansButton";
             this.KMeansButton.Size = new System.Drawing.Size(220, 28);

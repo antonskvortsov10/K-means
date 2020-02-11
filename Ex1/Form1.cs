@@ -36,6 +36,7 @@ namespace Ex1
                     MemForImage = Image.FromFile(openFileDialog1.FileName);
                     pictureBox1.Image = MemForImage;
                     bmp = (Bitmap)pictureBox1.Image;
+                    GrayScaleProcessButton.Enabled = true;
                 }
                 catch (Exception ex)
                 {
@@ -63,20 +64,25 @@ namespace Ex1
                     r = col.R;
                     g = col.G;
                     b = col.B;
-                    // byte gray = (byte)(0.3 * r + 0.59 * g + 0.11 * b);
                     byte gray;
+
                     if (ok)
+                        // Formula using input coefficients:
                         gray = (byte)((N1 / (N1 + N2 + N3)) * r + (N2 / (N1 + N2 + N3)) * g + (N3 / (N1 + N2 + N3)) * b);
                     else
-                        gray = (byte)(N1 * r + N2 * g + N3 * b);
+                        // Standart formula for conversion:
+                        // byte gray = (byte)(0.3 * r + 0.59 * g + 0.11 * b);
+                        gray = (byte)(0.3 * r + 0.59 * g + 0.11 * b);
                     bmp.SetPixel(x, y, Color.FromArgb(gray, gray, gray));
                 }
             }
+            ShowResultImageButton.Enabled = true;
         }
 
         private void ShowResultImageButton_Click(object sender, EventArgs e)
         {
             pictureBox2.Image = bmp;
+            KMeansButton.Enabled = true;
         }
 
         private void Weight1Button_Click(object sender, EventArgs e)
