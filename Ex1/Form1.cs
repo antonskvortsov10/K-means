@@ -17,7 +17,7 @@ namespace Ex1
             InitializeComponent();
         }
 
-        Bitmap bmp = new Bitmap("C:\\Users\\Anton\\Downloads\\Ex2\\Ex2\\Izmaylovo_2014.bmp");
+        Bitmap bmp = new Bitmap("C:\\Users\\Anton\\source\\repos\\K-means\\Izmaylovo_2014.bmp");
         byte i1, i2, i3;
         Image MemForImage;
 
@@ -25,7 +25,8 @@ namespace Ex1
 
         private void LoadImage(bool Bmp)
         {
-            openFileDialog1.InitialDirectory = "C:\\Users\\Anton\\Downloads\\Ex2\\Ex2";
+            openFileDialog1.InitialDirectory = "C:\\Users\\Anton\\source\\repos\\K-means";
+
             if (Bmp)
                 openFileDialog1.Filter = "image (BMP) files (*.bmp)|*.bmp|All files (*.*)|*.*";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
