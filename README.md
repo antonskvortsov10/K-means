@@ -26,4 +26,6 @@ This program is written using .NET Framework.
 
 <p><img src="Screenshots/Step8.png"></p>
 
+<p>So here is the final result:</p>
+
 <p><img src="Screenshots/Result1.png"></p>
