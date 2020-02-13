@@ -8,7 +8,7 @@ This program is written using .NET Framework.
 
 <hr>
 
-<p>Here are examples of how this application works:</p>
+<p><h3>Here are examples of how this application works:</h3></p>
 
 <p><img src="Screenshots/Step1.png"></p>
 
@@ -26,6 +26,6 @@ This program is written using .NET Framework.
 
 <p><img src="Screenshots/Step8.png"></p>
 
-<p>So here is the final result:</p>
+<p><strong>So here is the final result:</strong></p>
 
 <p><img src="Screenshots/Result1.png"></p>
