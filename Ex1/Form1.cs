@@ -105,6 +105,15 @@ namespace Ex1
             textBox3.Text = Convert.ToString(i3);
         }
 
+        private void KMeansTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+            if (!Char.IsDigit(number) && number != 8 || number == '0' && KMeansTextBox.Text == "")
+            {
+                e.Handled = true;
+            }
+        }
+
         private void LoadImageButton_Click(object sender, EventArgs e)
         {
             LoadImage(true);

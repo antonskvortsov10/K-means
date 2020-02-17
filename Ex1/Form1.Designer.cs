@@ -213,6 +213,7 @@
             this.KMeansTextBox.Name = "KMeansTextBox";
             this.KMeansTextBox.Size = new System.Drawing.Size(50, 20);
             this.KMeansTextBox.TabIndex = 16;
+            this.KMeansTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KMeansTextBox_KeyPress);
             // 
             // KMeansLabel
             // 
