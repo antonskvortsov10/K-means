@@ -46,7 +46,7 @@
             this.KMeansButton = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.KMeansTextBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.KMeansLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
@@ -214,21 +214,21 @@
             this.KMeansTextBox.Size = new System.Drawing.Size(50, 20);
             this.KMeansTextBox.TabIndex = 16;
             // 
-            // label1
+            // KMeansLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(337, 576);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 13);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Number of classes:";
+            this.KMeansLabel.AutoSize = true;
+            this.KMeansLabel.Location = new System.Drawing.Point(337, 576);
+            this.KMeansLabel.Name = "KMeansLabel";
+            this.KMeansLabel.Size = new System.Drawing.Size(97, 13);
+            this.KMeansLabel.TabIndex = 17;
+            this.KMeansLabel.Text = "Number of classes:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(997, 697);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.KMeansLabel);
             this.Controls.Add(this.KMeansTextBox);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.KMeansButton);
@@ -279,7 +279,7 @@
         private System.Windows.Forms.Button KMeansButton;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TextBox KMeansTextBox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label KMeansLabel;
     }
 }
 
