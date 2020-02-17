@@ -114,7 +114,7 @@ namespace Ex1
         {
             Bitmap I = (Bitmap)pictureBox2.Image;
             Bitmap newI = new Bitmap(bmp);
-            int k = Convert.ToInt32(textBox4.Text), n = 20; // int k = 2, n = 20;
+            int k = Convert.ToInt32(KMeansTextBox.Text), n = 20; // int k = 2, n = 20;
             List<List<int>> dist = new List<List<int>>();
             Random rnd = new Random();
             int[] Ck = new int[k];

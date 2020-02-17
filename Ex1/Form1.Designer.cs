@@ -45,7 +45,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.KMeansButton = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.KMeansTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -207,12 +207,12 @@
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
             // 
-            // textBox4
+            // KMeansTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(440, 573);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(50, 20);
-            this.textBox4.TabIndex = 16;
+            this.KMeansTextBox.Location = new System.Drawing.Point(440, 573);
+            this.KMeansTextBox.Name = "KMeansTextBox";
+            this.KMeansTextBox.Size = new System.Drawing.Size(50, 20);
+            this.KMeansTextBox.TabIndex = 16;
             // 
             // label1
             // 
@@ -229,7 +229,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(997, 697);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.KMeansTextBox);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.KMeansButton);
             this.Controls.Add(this.LoadImageButton);
@@ -278,7 +278,7 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button KMeansButton;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox KMeansTextBox;
         private System.Windows.Forms.Label label1;
     }
 }
