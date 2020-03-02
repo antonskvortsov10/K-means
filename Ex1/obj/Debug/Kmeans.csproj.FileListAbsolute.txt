@@ -8,3 +8,12 @@ C:\Users\Anton\Source\Repos\K-means\Ex1\obj\Debug\Kmeans.csproj.GenerateResource
 C:\Users\Anton\Source\Repos\K-means\Ex1\obj\Debug\Kmeans.csproj.CoreCompileInputs.cache
 C:\Users\Anton\Source\Repos\K-means\Ex1\obj\Debug\Ex1.exe
 C:\Users\Anton\Source\Repos\K-means\Ex1\obj\Debug\Ex1.pdb
+C:\Users\Anton\Source\Repos\antonskvortsov10\K-means\Ex1\bin\Debug\Ex1.exe.config
+C:\Users\Anton\Source\Repos\antonskvortsov10\K-means\Ex1\bin\Debug\Ex1.exe
+C:\Users\Anton\Source\Repos\antonskvortsov10\K-means\Ex1\bin\Debug\Ex1.pdb
+C:\Users\Anton\Source\Repos\antonskvortsov10\K-means\Ex1\obj\Debug\Kmeans.csprojAssemblyReference.cache
+C:\Users\Anton\Source\Repos\antonskvortsov10\K-means\Ex1\obj\Debug\Ex1.Form1.resources
+C:\Users\Anton\Source\Repos\antonskvortsov10\K-means\Ex1\obj\Debug\Ex1.Properties.Resources.resources
+C:\Users\Anton\Source\Repos\antonskvortsov10\K-means\Ex1\obj\Debug\Kmeans.csproj.GenerateResource.cache
+C:\Users\Anton\Source\Repos\antonskvortsov10\K-means\Ex1\obj\Debug\Ex1.exe
+C:\Users\Anton\Source\Repos\antonskvortsov10\K-means\Ex1\obj\Debug\Ex1.pdb
