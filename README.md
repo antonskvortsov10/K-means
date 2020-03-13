@@ -28,4 +28,4 @@ This program is written using .NET Framework.
 
 <p><strong>So here is the final result:</strong></p>
 
-<p><img src="Screenshots/Result1.png"></p>
+<p><img src="Screenshots/Result.png"></p>
