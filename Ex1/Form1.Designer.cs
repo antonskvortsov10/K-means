@@ -90,7 +90,7 @@
             // 
             this.pictureBox2.Location = new System.Drawing.Point(12, 292);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(371, 260);
+            this.pictureBox2.Size = new System.Drawing.Size(371, 262);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -193,7 +193,7 @@
             // KMeansButton
             // 
             this.KMeansButton.Enabled = false;
-            this.KMeansButton.Location = new System.Drawing.Point(79, 568);
+            this.KMeansButton.Location = new System.Drawing.Point(79, 573);
             this.KMeansButton.Name = "KMeansButton";
             this.KMeansButton.Size = new System.Drawing.Size(220, 28);
             this.KMeansButton.TabIndex = 14;
@@ -205,14 +205,14 @@
             // 
             this.pictureBox3.Location = new System.Drawing.Point(425, 292);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(371, 260);
+            this.pictureBox3.Size = new System.Drawing.Size(371, 262);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
             // 
             // KMeansTextBox
             // 
-            this.KMeansTextBox.Location = new System.Drawing.Point(440, 573);
+            this.KMeansTextBox.Location = new System.Drawing.Point(440, 578);
             this.KMeansTextBox.Name = "KMeansTextBox";
             this.KMeansTextBox.Size = new System.Drawing.Size(50, 20);
             this.KMeansTextBox.TabIndex = 16;
@@ -221,7 +221,7 @@
             // KMeansLabel
             // 
             this.KMeansLabel.AutoSize = true;
-            this.KMeansLabel.Location = new System.Drawing.Point(337, 576);
+            this.KMeansLabel.Location = new System.Drawing.Point(337, 581);
             this.KMeansLabel.Name = "KMeansLabel";
             this.KMeansLabel.Size = new System.Drawing.Size(97, 13);
             this.KMeansLabel.TabIndex = 17;
