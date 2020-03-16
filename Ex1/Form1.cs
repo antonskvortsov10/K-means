@@ -51,9 +51,9 @@ namespace Ex1
         {
             Bitmap bmp = (Bitmap)pictureBox1.Image;
             double N1, N2, N3;
-            N1 = trackBar1.Value;
-            N2 = trackBar2.Value;
-            N3 = trackBar3.Value;
+            N1 = RTrackBar.Value;
+            N2 = GTrackBar.Value;
+            N3 = BTrackBar.Value;
             bool ok = true;
             if (N1 == 0 && N2 == 0 && N3 == 0)
                 ok = false;
@@ -87,22 +87,22 @@ namespace Ex1
             KMeansButton.Enabled = true;
         }
 
-        private void Weight1Button_Click(object sender, EventArgs e)
+        private void RButton_Click(object sender, EventArgs e)
         {
-            i1 = (byte)trackBar1.Value;
-            textBox1.Text = Convert.ToString(i1);
+            i1 = (byte)RTrackBar.Value;
+            RTextBox.Text = Convert.ToString(i1);
         }
 
-        private void Weight2Button_Click(object sender, EventArgs e)
+        private void GButton_Click(object sender, EventArgs e)
         {
-            i2 = (byte)trackBar2.Value;
-            textBox2.Text = Convert.ToString(i2);
+            i2 = (byte)GTrackBar.Value;
+            GTextBox.Text = Convert.ToString(i2);
         }
 
-        private void Weight3Button_Click(object sender, EventArgs e)
+        private void BButton_Click(object sender, EventArgs e)
         {
-            i3 = (byte)trackBar3.Value;
-            textBox3.Text = Convert.ToString(i3);
+            i3 = (byte)BTrackBar.Value;
+            BTextBox.Text = Convert.ToString(i3);
         }
 
         private void KMeansTextBox_KeyPress(object sender, KeyPressEventArgs e)

@@ -32,15 +32,15 @@
             this.GrayScaleProcessButton = new System.Windows.Forms.Button();
             this.ShowResultImageButton = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
-            this.trackBar3 = new System.Windows.Forms.TrackBar();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.Weight1Button = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.Weight2Button = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.Weight3Button = new System.Windows.Forms.Button();
+            this.RTrackBar = new System.Windows.Forms.TrackBar();
+            this.GTrackBar = new System.Windows.Forms.TrackBar();
+            this.BTrackBar = new System.Windows.Forms.TrackBar();
+            this.RTextBox = new System.Windows.Forms.TextBox();
+            this.RButton = new System.Windows.Forms.Button();
+            this.GTextBox = new System.Windows.Forms.TextBox();
+            this.GButton = new System.Windows.Forms.Button();
+            this.BTextBox = new System.Windows.Forms.TextBox();
+            this.BButton = new System.Windows.Forms.Button();
             this.LoadImageButton = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.KMeansButton = new System.Windows.Forms.Button();
@@ -49,9 +49,9 @@
             this.KMeansLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RTrackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GTrackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BTrackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,86 +95,86 @@
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
-            // trackBar1
+            // RTrackBar
             // 
-            this.trackBar1.Location = new System.Drawing.Point(501, 35);
-            this.trackBar1.Maximum = 255;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar1.Size = new System.Drawing.Size(45, 214);
-            this.trackBar1.TabIndex = 4;
+            this.RTrackBar.Location = new System.Drawing.Point(501, 35);
+            this.RTrackBar.Maximum = 255;
+            this.RTrackBar.Name = "RTrackBar";
+            this.RTrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.RTrackBar.Size = new System.Drawing.Size(45, 214);
+            this.RTrackBar.TabIndex = 4;
             // 
-            // trackBar2
+            // GTrackBar
             // 
-            this.trackBar2.Location = new System.Drawing.Point(594, 35);
-            this.trackBar2.Maximum = 255;
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar2.Size = new System.Drawing.Size(45, 214);
-            this.trackBar2.TabIndex = 5;
+            this.GTrackBar.Location = new System.Drawing.Point(594, 35);
+            this.GTrackBar.Maximum = 255;
+            this.GTrackBar.Name = "GTrackBar";
+            this.GTrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.GTrackBar.Size = new System.Drawing.Size(45, 214);
+            this.GTrackBar.TabIndex = 5;
             // 
-            // trackBar3
+            // BTrackBar
             // 
-            this.trackBar3.Location = new System.Drawing.Point(687, 35);
-            this.trackBar3.Maximum = 255;
-            this.trackBar3.Name = "trackBar3";
-            this.trackBar3.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar3.Size = new System.Drawing.Size(45, 214);
-            this.trackBar3.TabIndex = 6;
+            this.BTrackBar.Location = new System.Drawing.Point(687, 35);
+            this.BTrackBar.Maximum = 255;
+            this.BTrackBar.Name = "BTrackBar";
+            this.BTrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.BTrackBar.Size = new System.Drawing.Size(45, 214);
+            this.BTrackBar.TabIndex = 6;
             // 
-            // textBox1
+            // RTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(479, 255);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(67, 20);
-            this.textBox1.TabIndex = 7;
+            this.RTextBox.Location = new System.Drawing.Point(479, 255);
+            this.RTextBox.Name = "RTextBox";
+            this.RTextBox.ReadOnly = true;
+            this.RTextBox.Size = new System.Drawing.Size(67, 20);
+            this.RTextBox.TabIndex = 7;
             // 
-            // Weight1Button
+            // RButton
             // 
-            this.Weight1Button.Location = new System.Drawing.Point(479, 12);
-            this.Weight1Button.Name = "Weight1Button";
-            this.Weight1Button.Size = new System.Drawing.Size(67, 23);
-            this.Weight1Button.TabIndex = 8;
-            this.Weight1Button.Text = "Show";
-            this.Weight1Button.UseVisualStyleBackColor = true;
-            this.Weight1Button.Click += new System.EventHandler(this.Weight1Button_Click);
+            this.RButton.Location = new System.Drawing.Point(479, 12);
+            this.RButton.Name = "RButton";
+            this.RButton.Size = new System.Drawing.Size(67, 23);
+            this.RButton.TabIndex = 8;
+            this.RButton.Text = "Show";
+            this.RButton.UseVisualStyleBackColor = true;
+            this.RButton.Click += new System.EventHandler(this.RButton_Click);
             // 
-            // textBox2
+            // GTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(572, 255);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(67, 20);
-            this.textBox2.TabIndex = 9;
+            this.GTextBox.Location = new System.Drawing.Point(572, 255);
+            this.GTextBox.Name = "GTextBox";
+            this.GTextBox.ReadOnly = true;
+            this.GTextBox.Size = new System.Drawing.Size(67, 20);
+            this.GTextBox.TabIndex = 9;
             // 
-            // Weight2Button
+            // GButton
             // 
-            this.Weight2Button.Location = new System.Drawing.Point(572, 12);
-            this.Weight2Button.Name = "Weight2Button";
-            this.Weight2Button.Size = new System.Drawing.Size(67, 23);
-            this.Weight2Button.TabIndex = 10;
-            this.Weight2Button.Text = "Show";
-            this.Weight2Button.UseVisualStyleBackColor = true;
-            this.Weight2Button.Click += new System.EventHandler(this.Weight2Button_Click);
+            this.GButton.Location = new System.Drawing.Point(572, 12);
+            this.GButton.Name = "GButton";
+            this.GButton.Size = new System.Drawing.Size(67, 23);
+            this.GButton.TabIndex = 10;
+            this.GButton.Text = "Show";
+            this.GButton.UseVisualStyleBackColor = true;
+            this.GButton.Click += new System.EventHandler(this.GButton_Click);
             // 
-            // textBox3
+            // BTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(665, 255);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(67, 20);
-            this.textBox3.TabIndex = 11;
+            this.BTextBox.Location = new System.Drawing.Point(665, 255);
+            this.BTextBox.Name = "BTextBox";
+            this.BTextBox.ReadOnly = true;
+            this.BTextBox.Size = new System.Drawing.Size(67, 20);
+            this.BTextBox.TabIndex = 11;
             // 
-            // Weight3Button
+            // BButton
             // 
-            this.Weight3Button.Location = new System.Drawing.Point(665, 12);
-            this.Weight3Button.Name = "Weight3Button";
-            this.Weight3Button.Size = new System.Drawing.Size(67, 23);
-            this.Weight3Button.TabIndex = 12;
-            this.Weight3Button.Text = "Show";
-            this.Weight3Button.UseVisualStyleBackColor = true;
-            this.Weight3Button.Click += new System.EventHandler(this.Weight3Button_Click);
+            this.BButton.Location = new System.Drawing.Point(665, 12);
+            this.BButton.Name = "BButton";
+            this.BButton.Size = new System.Drawing.Size(67, 23);
+            this.BButton.TabIndex = 12;
+            this.BButton.Text = "Show";
+            this.BButton.UseVisualStyleBackColor = true;
+            this.BButton.Click += new System.EventHandler(this.BButton_Click);
             // 
             // LoadImageButton
             // 
@@ -237,26 +237,27 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.KMeansButton);
             this.Controls.Add(this.LoadImageButton);
-            this.Controls.Add(this.Weight3Button);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.Weight2Button);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.Weight1Button);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.trackBar3);
-            this.Controls.Add(this.trackBar2);
-            this.Controls.Add(this.trackBar1);
+            this.Controls.Add(this.BButton);
+            this.Controls.Add(this.BTextBox);
+            this.Controls.Add(this.GButton);
+            this.Controls.Add(this.GTextBox);
+            this.Controls.Add(this.RButton);
+            this.Controls.Add(this.RTextBox);
+            this.Controls.Add(this.BTrackBar);
+            this.Controls.Add(this.GTrackBar);
+            this.Controls.Add(this.RTrackBar);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.ShowResultImageButton);
             this.Controls.Add(this.GrayScaleProcessButton);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "K-means";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RTrackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GTrackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BTrackBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -269,15 +270,15 @@
         private System.Windows.Forms.Button GrayScaleProcessButton;
         private System.Windows.Forms.Button ShowResultImageButton;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.TrackBar trackBar2;
-        private System.Windows.Forms.TrackBar trackBar3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button Weight1Button;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button Weight2Button;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button Weight3Button;
+        private System.Windows.Forms.TrackBar RTrackBar;
+        private System.Windows.Forms.TrackBar GTrackBar;
+        private System.Windows.Forms.TrackBar BTrackBar;
+        private System.Windows.Forms.TextBox RTextBox;
+        private System.Windows.Forms.Button RButton;
+        private System.Windows.Forms.TextBox GTextBox;
+        private System.Windows.Forms.Button GButton;
+        private System.Windows.Forms.TextBox BTextBox;
+        private System.Windows.Forms.Button BButton;
         private System.Windows.Forms.Button LoadImageButton;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button KMeansButton;
