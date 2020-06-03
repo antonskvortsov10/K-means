@@ -1,6 +1,6 @@
 # K-means
 
-K-means - an algorithm for image processing implemented on C#/.NET (Desktop Application)
+K-means - an algorithm for image processing implemented on C#/.NET (desktop application)
 
 K-means is an algorithm which is used in computer vision.
 
